@@ -34,15 +34,45 @@
             </section>
 
             <section id="seccion__agregar__productos">
-                
+                <form class="form-agregar-producto" data-form-agregar>
+                    <h1 class="titulo">Agregar producto</h1>
+
+                    <fieldset class="campo-form">
+                        <input name="nombre" id="nombre"  type="text" placeholder="nombre..." autocomplete="off" required />
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+
+                    <fieldset class="campo-form">
+                        <input name="precio" id="precio"  type="text" placeholder="precio..." autocomplete="off" required/>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+
+                    <fieldset class="campo-form">
+                        <input name="imagen" id="imagen"  type="text" placeholder="imagen..." autocomplete="off" required/>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+
+                    <div>                        
+                        <input id="btn-enviar" type="submit" class="boton-enviar">
+
+                        <button id="btn-limpiar" class="boton-limpiar">Limpiar</button>
+
+                        
+                    </div>
+                </form>
             </section>
         </div>
     </main>
 
     <footer>
-
+        <img src="imgs/logo-pagina.svg" alt="Logo de Alura Geek">
+        <p class="footer__line1">DESARROLLADO POR JUAN PABLO JIMÉNEZ</p>
+        <p class="footer__line2">ALURA LATAM - 2024</p>
     </footer>
 
     <script src="js/mostrarProductos.js" type="module"></script>
+    <script src="js/agregarProductos.js" type="module"></script>
+    <script src="js/eliminarProductos.js" type="module"></script>
+    
 </body>
 </html>

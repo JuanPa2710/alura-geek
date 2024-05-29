@@ -3,8 +3,20 @@
     {
       "nombre": "Stormtooper",
       "precio": "60,00",
-      "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "imagen": "//ciudadmangacr.com/cdn/shop/files/stormtrooper-nuevo_a06bde64-221d-4f7a-999b-b89daa767484.webp?v=1712785443",
       "id": "1"
+    },
+    {
+      "id": "ca1d",
+      "nombre": "Batman",
+      "precio": "25,00",
+      "imagen": "https://ciudadmangacr.com/cdn/shop/products/12.000-889698592765.jpg?v=1646161550"
+    },
+    {
+      "id": "8bbe",
+      "nombre": "Funko Meothw",
+      "precio": "20,00",
+      "imagen": "https://ciudadmangacr.com/cdn/shop/products/10.500-889698552295.jpg?v=1623536115"
     }
   ]
 }

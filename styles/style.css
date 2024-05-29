@@ -131,12 +131,75 @@ main {
     cursor: pointer;
 }
 
-
-
 #seccion__agregar__productos {
     padding: 40px;
     display: flex;
     justify-content: center;
+}
+
+.form-agregar-producto {
+    width: 472px;
+    height: 517px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.campo-form {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-form > input {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;
+    width: 372px;
+    height: 58px;
+    border: 4px solid var(--dark-blue);
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+.campo-form > input::placeholder {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--dark-blue);
+}
+
+.mensaje-error {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    color: #ff0000;
+    padding-top: 16px;
+}
+
+.form-agregar-producto > div {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-enviar {
+    width: 188px;
+    height: 55px;
+    border-radius: 15px;
+    background: var(--dark-blue);
+    color: white;
+    cursor: pointer;
+}
+
+#btn-limpiar {
+    width: 188px;
+    height: 55px;
+    border-radius: 15px;
+    border: 4px solid var(--dark-blue); 
+    background: white;
+    color: var(--dark-blue);
+    cursor: pointer;
 }
 
 /* Estilos del Footer */
@@ -148,4 +211,88 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+footer img {
+    width: 374px;
+    height: 56px;
+}
+
+.footer__line1 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer__line2 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+}
+
+
+@media (max-width: 767px)  {
+    /* Estilos del header */
+    header img {
+        width: 65%;
+    }
+
+    /* Estilos del main */
+    main {
+        height: auto;
+        width: 100vw;
+    }
+
+    .titulo {
+        font-size: 18px;
+    }
+
+    .contenedor {        
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .form-agregar-producto {
+        padding: 0;
+    }
+
+    .campo-form > input {
+        width: 290px;
+    }
+
+    .form-agregar-producto > div {
+        justify-content: space-around;
+    }
+
+    #btn-enviar, #btn-limpiar  {
+        width: 150px;
+    }
+
+    #seccion__productos {
+        padding: 0;
+    }
+
+    .pared-prouctos {
+        width: auto;
+        height: auto;
+        overflow: scroll;
+        padding: 0 10px 0 21px;
+    }
+
+    .producto {
+        width: 40%;
+    }
+
+    .img-producto {
+        width: 98%;
+        height: 174px;
+        object-fit: cover;
+        border-radius: 5px;
+        border: 2px solid #000000;
+    }
 }
