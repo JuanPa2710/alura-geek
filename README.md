@@ -71,7 +71,7 @@ For issues, please use the GitHub issue tracker.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/JuanPa2710/alura-geek/blob/main/LICENSE).
 
 ## Contact
 
